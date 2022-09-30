@@ -1,0 +1,51 @@
+.ligne{
+    display:  flex;
+    flex-direction: column;
+}
+
+
+.carre {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    margin: 10px;
+    left: 0%;
+    top: 0%;
+}
+
+.carrebleu {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    margin: 10px;
+    flex-direction: column;
+    left: 0%;
+    top: 0%;
+}
+
+
+/*
+@media screen and (min-width: 700px) {
+    .carre {
+        background-color: rgb(255, 0, 149);
+        width: 100px;
+        flex-direction: row;
+    }
+}
+*/
+
+
+@media screen and (min-width: 1024px) {
+    .carrebleu {
+        background-color: rgb(0, 38, 255);
+        /*width: 300px;*/
+    }
+    .ligne{
+        flex-direction: row;
+        justify-content:  center;
+    }
+}
+
+
