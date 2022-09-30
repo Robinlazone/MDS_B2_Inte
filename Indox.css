@@ -1,0 +1,24 @@
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:100vw ;
+    height: 100vh;
+}
+
+.carre {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 174, 0);
+    display:inline-block;
+    margin: 10px;
+    left: 0%;
+    top: 0%;
+
+}
+
+.blue{
+    background-color: aqua;
+}
+
